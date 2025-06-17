@@ -18,5 +18,5 @@ services:
       - ONNX_MEMORY_PATTERN=true
       - ONNX_ARENA_EXTEND_STRATEGY=kNextPowerOfTwo
       
- volumes:
+volumes:
   model_data:
